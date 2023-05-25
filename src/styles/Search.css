@@ -1,0 +1,27 @@
+form {
+    background: var(--primary-color);
+    border: 1px solid var(--main-theme_2);
+}
+
+.search-input {
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+.search-input::placeholder {
+    color: var(--main-theme_1);
+}
+
+.form-container {
+    max-width: 768px;
+}
+
+.search-button-control {
+    background: var(--main-theme_2);
+    padding: .5rem 1rem;
+}
+.search-button-control button {
+    border-radius: 0 100px 100px 0;
+}

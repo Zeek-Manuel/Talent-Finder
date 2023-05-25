@@ -1,0 +1,7 @@
+.btn-utility {
+    background: var(--secondary-color);
+    padding: .5rem 1.25rem;
+}
+.btn-utility:hover {
+    background: var(--secondary-color-aux);
+}
